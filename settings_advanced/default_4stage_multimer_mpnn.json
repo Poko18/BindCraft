@@ -61,7 +61,7 @@
     "enable_rejection_check": true,
     "acceptance_rate": 0.01,
     "start_monitoring": 300,
-    "af_params_dir": "",
-    "dssp_path": "",
-    "dalphaball_path": ""
+    "af_params_dir": "/home/tsatler/projects/AFdesign_playground",
+    "dssp_path": "/home/tsatler/RFdif/ClusterProteinDesign/scripts/bindcraft/BindCraft/functions/dssp",
+    "dalphaball_path": "/home/tsatler/RFdif/ClusterProteinDesign/scripts/bindcraft/BindCraft/functions/DAlphaBall.gcc"
 }

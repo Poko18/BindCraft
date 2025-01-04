@@ -15,7 +15,7 @@
     "hard_iterations": 5,
     "greedy_iterations": 15,
     "greedy_percentage": 5,
-    "save_design_animations": true,
+    "save_design_animations": false,
     "save_design_trajectory_plots": true,
     "weights_plddt": 0.1,
     "weights_pae_intra": 0.4,
@@ -59,9 +59,9 @@
     "save_trajectory_pickle": false,
     "max_trajectories": false,
     "enable_rejection_check": true,
-    "acceptance_rate": 0.01,
-    "start_monitoring": 600,
-    "af_params_dir": "",
-    "dssp_path": "",
-    "dalphaball_path": ""
+    "acceptance_rate": 0.0000001,
+    "start_monitoring": 300,
+    "af_params_dir": "/home/tsatler/projects/AFdesign_playground",
+    "dssp_path": "/home/tsatler/RFdif/ClusterProteinDesign/scripts/bindcraft/BindCraft/functions/dssp",
+    "dalphaball_path": "/home/tsatler/RFdif/ClusterProteinDesign/scripts/bindcraft/BindCraft/functions/DAlphaBall.gcc"
 }

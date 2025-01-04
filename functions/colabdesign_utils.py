@@ -291,7 +291,11 @@ def predict_binder_complex(prediction_model, binder_sequence, mpnn_design_name, 
 
     # Update the CSV file with the failure counts
     if filter_failures:
-        update_failures(failure_csv, filter_failures)
+        try:
+            update_failures(failure_csv, filter_failures)
+        except Exception as e:
+            print(f"Failed to update failure CSV: {e}")
+            print("Continuing...")
 
     # AF2 filters passed, contuing with relaxation
     for model_num in prediction_models:
